@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstname" value="suresh"/>
+    <parameter name="password" value="admin@123"/>
+    <parameter name="lastnamme" value="bali"/>
+    <parameter name="middlename" value="babu"/>
+    <parameter name="employeename" value="suresh"/>
+    <parameter name="username" value="suresh"/>
+    <classes>
+      <class name="Testcases.OrangeHRM">
+        <methods>
+          <include name="lanchApp"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="orangHRM"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Testcases.OrangeHRM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
